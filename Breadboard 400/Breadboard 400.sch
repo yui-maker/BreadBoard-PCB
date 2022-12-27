@@ -1,0 +1,612 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Breadboard 400"
+Date ""
+Rev "C"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L breadboard:PWR A1
+U 1 1 60206AB9
+P 5175 2750
+F 0 "A1" H 5300 2825 31  0001 C CNN
+F 1 "PWR" H 5300 2775 31  0001 C CNN
+F 2 "breadboard:power" H 5325 2700 50  0001 C CNN
+F 3 "" H 5325 2700 50  0001 C CNN
+	1    5175 2750
+	1    0    0    1   
+$EndComp
+$Comp
+L breadboard:PWR A2
+U 1 1 602084FF
+P 5500 2750
+F 0 "A2" H 5625 2825 31  0001 C CNN
+F 1 "PWR" H 5625 2775 31  0001 C CNN
+F 2 "breadboard:power" H 5650 2700 50  0001 C CNN
+F 3 "" H 5650 2700 50  0001 C CNN
+	1    5500 2750
+	1    0    0    1   
+$EndComp
+$Comp
+L breadboard:PWR A3
+U 1 1 602092F3
+P 5825 2750
+F 0 "A3" H 5950 2825 31  0001 C CNN
+F 1 "PWR" H 5950 2775 31  0001 C CNN
+F 2 "breadboard:power" H 5975 2700 50  0001 C CNN
+F 3 "" H 5975 2700 50  0001 C CNN
+	1    5825 2750
+	1    0    0    1   
+$EndComp
+$Comp
+L breadboard:PWR A4
+U 1 1 602092F9
+P 6150 2750
+F 0 "A4" H 6275 2825 31  0001 C CNN
+F 1 "PWR" H 6275 2775 31  0001 C CNN
+F 2 "breadboard:power" H 6300 2700 50  0001 C CNN
+F 3 "" H 6300 2700 50  0001 C CNN
+	1    6150 2750
+	1    0    0    1   
+$EndComp
+$Comp
+L breadboard:PWR A5
+U 1 1 6020C0C9
+P 6475 2750
+F 0 "A5" H 6600 2825 31  0001 C CNN
+F 1 "PWR" H 6600 2775 31  0001 C CNN
+F 2 "breadboard:power" H 6625 2700 50  0001 C CNN
+F 3 "" H 6625 2700 50  0001 C CNN
+	1    6475 2750
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5475 2825 5475 2900
+Wire Wire Line
+	5475 2900 5800 2900
+Wire Wire Line
+	6775 2825 6775 2900
+Wire Wire Line
+	6450 2825 6450 2900
+Connection ~ 6450 2900
+Wire Wire Line
+	6450 2900 6775 2900
+Wire Wire Line
+	6125 2825 6125 2900
+Connection ~ 6125 2900
+Wire Wire Line
+	6125 2900 6450 2900
+Wire Wire Line
+	5800 2825 5800 2900
+Connection ~ 5800 2900
+Wire Wire Line
+	5800 2900 6125 2900
+Wire Wire Line
+	5475 2550 5475 2475
+Wire Wire Line
+	5475 2475 5800 2475
+Wire Wire Line
+	6775 2550 6775 2475
+Connection ~ 6775 2475
+Wire Wire Line
+	6450 2550 6450 2475
+Connection ~ 6450 2475
+Wire Wire Line
+	6450 2475 6775 2475
+Wire Wire Line
+	5800 2550 5800 2475
+Connection ~ 5800 2475
+Wire Wire Line
+	5800 2475 6125 2475
+Wire Wire Line
+	6125 2550 6125 2475
+Connection ~ 6125 2475
+Wire Wire Line
+	6125 2475 6450 2475
+$Comp
+L breadboard:PWR A11
+U 1 1 60249517
+P 5175 4900
+F 0 "A11" H 5300 4975 31  0001 C CNN
+F 1 "PWR" H 5300 4925 31  0001 C CNN
+F 2 "breadboard:power" H 5325 4850 50  0001 C CNN
+F 3 "" H 5325 4850 50  0001 C CNN
+	1    5175 4900
+	1    0    0    1   
+$EndComp
+$Comp
+L breadboard:PWR A12
+U 1 1 602496F7
+P 5500 4900
+F 0 "A12" H 5625 4975 31  0001 C CNN
+F 1 "PWR" H 5625 4925 31  0001 C CNN
+F 2 "breadboard:power" H 5650 4850 50  0001 C CNN
+F 3 "" H 5650 4850 50  0001 C CNN
+	1    5500 4900
+	1    0    0    1   
+$EndComp
+$Comp
+L breadboard:PWR A13
+U 1 1 60249701
+P 5825 4900
+F 0 "A13" H 5950 4975 31  0001 C CNN
+F 1 "PWR" H 5950 4925 31  0001 C CNN
+F 2 "breadboard:power" H 5975 4850 50  0001 C CNN
+F 3 "" H 5975 4850 50  0001 C CNN
+	1    5825 4900
+	1    0    0    1   
+$EndComp
+$Comp
+L breadboard:PWR A14
+U 1 1 6024970B
+P 6150 4900
+F 0 "A14" H 6275 4975 31  0001 C CNN
+F 1 "PWR" H 6275 4925 31  0001 C CNN
+F 2 "breadboard:power" H 6300 4850 50  0001 C CNN
+F 3 "" H 6300 4850 50  0001 C CNN
+	1    6150 4900
+	1    0    0    1   
+$EndComp
+$Comp
+L breadboard:PWR A15
+U 1 1 60249715
+P 6475 4900
+F 0 "A15" H 6600 4975 31  0001 C CNN
+F 1 "PWR" H 6600 4925 31  0001 C CNN
+F 2 "breadboard:power" H 6625 4850 50  0001 C CNN
+F 3 "" H 6625 4850 50  0001 C CNN
+	1    6475 4900
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5475 4975 5475 5050
+Wire Wire Line
+	5475 5050 5800 5050
+Wire Wire Line
+	6775 4975 6775 5050
+Wire Wire Line
+	6450 4975 6450 5050
+Connection ~ 6450 5050
+Wire Wire Line
+	6450 5050 6775 5050
+Wire Wire Line
+	6125 4975 6125 5050
+Connection ~ 6125 5050
+Wire Wire Line
+	6125 5050 6450 5050
+Wire Wire Line
+	5800 4975 5800 5050
+Connection ~ 5800 5050
+Wire Wire Line
+	5800 5050 6125 5050
+Wire Wire Line
+	5475 4700 5475 4625
+Wire Wire Line
+	5475 4625 5800 4625
+Wire Wire Line
+	6775 4700 6775 4625
+Connection ~ 6775 4625
+Wire Wire Line
+	6450 4700 6450 4625
+Connection ~ 6450 4625
+Wire Wire Line
+	6450 4625 6775 4625
+Wire Wire Line
+	5800 4700 5800 4625
+Connection ~ 5800 4625
+Wire Wire Line
+	5800 4625 6125 4625
+Wire Wire Line
+	6125 4700 6125 4625
+Connection ~ 6125 4625
+Wire Wire Line
+	6125 4625 6450 4625
+Text Label 5500 4625 0    50   ~ 0
+GND2
+Text Label 5500 2475 0    50   ~ 0
+GND1
+Text Label 5500 2900 0    50   ~ 0
+VCC1
+Text Label 5500 5050 0    50   ~ 0
+VCC2
+$Comp
+L breadboard:BB A21
+U 1 1 602A358A
+P 4825 3475
+F 0 "A21" H 4800 3575 31  0001 C CNN
+F 1 "BB" H 4800 3525 31  0001 C CNN
+F 2 "breadboard:section" V 4800 3050 50  0001 C CNN
+F 3 "" V 4800 3050 50  0001 C CNN
+	1    4825 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A22
+U 1 1 602AB368
+P 4900 3475
+F 0 "A22" H 4875 3575 31  0001 C CNN
+F 1 "BB" H 4875 3525 31  0001 C CNN
+F 2 "breadboard:section" V 4875 3050 50  0001 C CNN
+F 3 "" V 4875 3050 50  0001 C CNN
+	1    4900 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A23
+U 1 1 602AEDF2
+P 4975 3475
+F 0 "A23" H 4950 3575 31  0001 C CNN
+F 1 "BB" H 4950 3525 31  0001 C CNN
+F 2 "breadboard:section" V 4950 3050 50  0001 C CNN
+F 3 "" V 4950 3050 50  0001 C CNN
+	1    4975 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A24
+U 1 1 602AEDF8
+P 5050 3475
+F 0 "A24" H 5025 3575 31  0001 C CNN
+F 1 "BB" H 5025 3525 31  0001 C CNN
+F 2 "breadboard:section" V 5025 3050 50  0001 C CNN
+F 3 "" V 5025 3050 50  0001 C CNN
+	1    5050 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A25
+U 1 1 602B154A
+P 5125 3475
+F 0 "A25" H 5100 3575 31  0001 C CNN
+F 1 "BB" H 5100 3525 31  0001 C CNN
+F 2 "breadboard:section" V 5100 3050 50  0001 C CNN
+F 3 "" V 5100 3050 50  0001 C CNN
+	1    5125 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A26
+U 1 1 602B1550
+P 5200 3475
+F 0 "A26" H 5175 3575 31  0001 C CNN
+F 1 "BB" H 5175 3525 31  0001 C CNN
+F 2 "breadboard:section" V 5175 3050 50  0001 C CNN
+F 3 "" V 5175 3050 50  0001 C CNN
+	1    5200 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A27
+U 1 1 602B3902
+P 5275 3475
+F 0 "A27" H 5250 3575 31  0001 C CNN
+F 1 "BB" H 5250 3525 31  0001 C CNN
+F 2 "breadboard:section" V 5250 3050 50  0001 C CNN
+F 3 "" V 5250 3050 50  0001 C CNN
+	1    5275 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A28
+U 1 1 602B3908
+P 5350 3475
+F 0 "A28" H 5325 3575 31  0001 C CNN
+F 1 "BB" H 5325 3525 31  0001 C CNN
+F 2 "breadboard:section" V 5325 3050 50  0001 C CNN
+F 3 "" V 5325 3050 50  0001 C CNN
+	1    5350 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A29
+U 1 1 602B6306
+P 5425 3475
+F 0 "A29" H 5400 3575 31  0001 C CNN
+F 1 "BB" H 5400 3525 31  0001 C CNN
+F 2 "breadboard:section" V 5400 3050 50  0001 C CNN
+F 3 "" V 5400 3050 50  0001 C CNN
+	1    5425 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A30
+U 1 1 602B630C
+P 5500 3475
+F 0 "A30" H 5475 3575 31  0001 C CNN
+F 1 "BB" H 5475 3525 31  0001 C CNN
+F 2 "breadboard:section" V 5475 3050 50  0001 C CNN
+F 3 "" V 5475 3050 50  0001 C CNN
+	1    5500 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A31
+U 1 1 602B8C84
+P 5575 3475
+F 0 "A31" H 5550 3575 31  0001 C CNN
+F 1 "BB" H 5550 3525 31  0001 C CNN
+F 2 "breadboard:section" V 5550 3050 50  0001 C CNN
+F 3 "" V 5550 3050 50  0001 C CNN
+	1    5575 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A32
+U 1 1 602B8C8A
+P 5650 3475
+F 0 "A32" H 5625 3575 31  0001 C CNN
+F 1 "BB" H 5625 3525 31  0001 C CNN
+F 2 "breadboard:section" V 5625 3050 50  0001 C CNN
+F 3 "" V 5625 3050 50  0001 C CNN
+	1    5650 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A33
+U 1 1 602BC576
+P 5725 3475
+F 0 "A33" H 5700 3575 31  0001 C CNN
+F 1 "BB" H 5700 3525 31  0001 C CNN
+F 2 "breadboard:section" V 5700 3050 50  0001 C CNN
+F 3 "" V 5700 3050 50  0001 C CNN
+	1    5725 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 603C8DAB
+P 10575 575
+F 0 "H1" H 10675 621 50  0000 L CNN
+F 1 "MountingHole" H 10675 530 50  0000 L CNN
+F 2 "mounting:M3" H 10575 575 50  0001 C CNN
+F 3 "~" H 10575 575 50  0001 C CNN
+	1    10575 575 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 603C9E42
+P 10575 750
+F 0 "H2" H 10675 796 50  0000 L CNN
+F 1 "MountingHole" H 10675 705 50  0000 L CNN
+F 2 "mounting:M3" H 10575 750 50  0001 C CNN
+F 3 "~" H 10575 750 50  0001 C CNN
+	1    10575 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP6
+U 1 1 60467406
+P 7200 3750
+F 0 "JP6" H 7200 3955 50  0000 C CNN
+F 1 "LINK_GND" H 7200 3864 50  0000 C CNN
+F 2 "breadboard:bridge" H 7200 3750 50  0001 C CNN
+F 3 "~" H 7200 3750 50  0001 C CNN
+	1    7200 3750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP5
+U 1 1 604878BC
+P 4650 3750
+F 0 "JP5" H 4650 3955 50  0000 C CNN
+F 1 "LINK_VCC" H 4650 3864 50  0000 C CNN
+F 2 "breadboard:bridge" H 4650 3750 50  0001 C CNN
+F 3 "~" H 4650 3750 50  0001 C CNN
+	1    4650 3750
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5475 2900 4650 2900
+Wire Wire Line
+	4650 2900 4650 3600
+Connection ~ 5475 2900
+Wire Wire Line
+	4650 3900 4650 5050
+Connection ~ 5475 5050
+$Comp
+L breadboard:BB A6
+U 1 1 602D6E72
+P 5800 3475
+F 0 "A6" H 5775 3575 31  0001 C CNN
+F 1 "BB" H 5775 3525 31  0001 C CNN
+F 2 "breadboard:section" V 5775 3050 50  0001 C CNN
+F 3 "" V 5775 3050 50  0001 C CNN
+	1    5800 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A7
+U 1 1 602D6E78
+P 5875 3475
+F 0 "A7" H 5850 3575 31  0001 C CNN
+F 1 "BB" H 5850 3525 31  0001 C CNN
+F 2 "breadboard:section" V 5850 3050 50  0001 C CNN
+F 3 "" V 5850 3050 50  0001 C CNN
+	1    5875 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A8
+U 1 1 602D6E7E
+P 5950 3475
+F 0 "A8" H 5925 3575 31  0001 C CNN
+F 1 "BB" H 5925 3525 31  0001 C CNN
+F 2 "breadboard:section" V 5925 3050 50  0001 C CNN
+F 3 "" V 5925 3050 50  0001 C CNN
+	1    5950 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A9
+U 1 1 602D6E84
+P 6025 3475
+F 0 "A9" H 6000 3575 31  0001 C CNN
+F 1 "BB" H 6000 3525 31  0001 C CNN
+F 2 "breadboard:section" V 6000 3050 50  0001 C CNN
+F 3 "" V 6000 3050 50  0001 C CNN
+	1    6025 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A10
+U 1 1 602D6E8A
+P 6100 3475
+F 0 "A10" H 6075 3575 31  0001 C CNN
+F 1 "BB" H 6075 3525 31  0001 C CNN
+F 2 "breadboard:section" V 6075 3050 50  0001 C CNN
+F 3 "" V 6075 3050 50  0001 C CNN
+	1    6100 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A16
+U 1 1 602D6E90
+P 6175 3475
+F 0 "A16" H 6150 3575 31  0001 C CNN
+F 1 "BB" H 6150 3525 31  0001 C CNN
+F 2 "breadboard:section" V 6150 3050 50  0001 C CNN
+F 3 "" V 6150 3050 50  0001 C CNN
+	1    6175 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A17
+U 1 1 602D6E96
+P 6250 3475
+F 0 "A17" H 6225 3575 31  0001 C CNN
+F 1 "BB" H 6225 3525 31  0001 C CNN
+F 2 "breadboard:section" V 6225 3050 50  0001 C CNN
+F 3 "" V 6225 3050 50  0001 C CNN
+	1    6250 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A18
+U 1 1 602D6E9C
+P 6325 3475
+F 0 "A18" H 6300 3575 31  0001 C CNN
+F 1 "BB" H 6300 3525 31  0001 C CNN
+F 2 "breadboard:section" V 6300 3050 50  0001 C CNN
+F 3 "" V 6300 3050 50  0001 C CNN
+	1    6325 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A19
+U 1 1 602D6EA2
+P 6400 3475
+F 0 "A19" H 6375 3575 31  0001 C CNN
+F 1 "BB" H 6375 3525 31  0001 C CNN
+F 2 "breadboard:section" V 6375 3050 50  0001 C CNN
+F 3 "" V 6375 3050 50  0001 C CNN
+	1    6400 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A20
+U 1 1 602D6EA8
+P 6475 3475
+F 0 "A20" H 6450 3575 31  0001 C CNN
+F 1 "BB" H 6450 3525 31  0001 C CNN
+F 2 "breadboard:section" V 6450 3050 50  0001 C CNN
+F 3 "" V 6450 3050 50  0001 C CNN
+	1    6475 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A34
+U 1 1 602D6EAE
+P 6550 3475
+F 0 "A34" H 6525 3575 31  0001 C CNN
+F 1 "BB" H 6525 3525 31  0001 C CNN
+F 2 "breadboard:section" V 6525 3050 50  0001 C CNN
+F 3 "" V 6525 3050 50  0001 C CNN
+	1    6550 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A35
+U 1 1 602D6EB4
+P 6625 3475
+F 0 "A35" H 6600 3575 31  0001 C CNN
+F 1 "BB" H 6600 3525 31  0001 C CNN
+F 2 "breadboard:section" V 6600 3050 50  0001 C CNN
+F 3 "" V 6600 3050 50  0001 C CNN
+	1    6625 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A36
+U 1 1 602D6EBA
+P 6700 3475
+F 0 "A36" H 6675 3575 31  0001 C CNN
+F 1 "BB" H 6675 3525 31  0001 C CNN
+F 2 "breadboard:section" V 6675 3050 50  0001 C CNN
+F 3 "" V 6675 3050 50  0001 C CNN
+	1    6700 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A37
+U 1 1 602EBBD4
+P 6775 3475
+F 0 "A37" H 6750 3575 31  0001 C CNN
+F 1 "BB" H 6750 3525 31  0001 C CNN
+F 2 "breadboard:section" V 6750 3050 50  0001 C CNN
+F 3 "" V 6750 3050 50  0001 C CNN
+	1    6775 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A38
+U 1 1 602EBBDA
+P 6850 3475
+F 0 "A38" H 6825 3575 31  0001 C CNN
+F 1 "BB" H 6825 3525 31  0001 C CNN
+F 2 "breadboard:section" V 6825 3050 50  0001 C CNN
+F 3 "" V 6825 3050 50  0001 C CNN
+	1    6850 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A39
+U 1 1 602EBBE0
+P 6925 3475
+F 0 "A39" H 6900 3575 31  0001 C CNN
+F 1 "BB" H 6900 3525 31  0001 C CNN
+F 2 "breadboard:section" V 6900 3050 50  0001 C CNN
+F 3 "" V 6900 3050 50  0001 C CNN
+	1    6925 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L breadboard:BB A40
+U 1 1 602EBBE6
+P 7000 3475
+F 0 "A40" H 6975 3575 31  0001 C CNN
+F 1 "BB" H 6975 3525 31  0001 C CNN
+F 2 "breadboard:section" V 6975 3050 50  0001 C CNN
+F 3 "" V 6975 3050 50  0001 C CNN
+	1    7000 3475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3600 7200 2475
+Wire Wire Line
+	7200 3900 7200 4625
+Wire Wire Line
+	6775 2475 7200 2475
+Wire Wire Line
+	4650 5050 5475 5050
+Wire Wire Line
+	6775 4625 7200 4625
+$EndSCHEMATC
